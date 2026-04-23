@@ -33,11 +33,11 @@ print(f"Estrellas en el cúmulo tras el filtro: {len(df_cluster)}")
 # Diagrama color-magnitud
 plt.subplot(1, 2, 2)
 
-# Graficamostodas las estrellas de fondo en rojo
+# Graficamos todas las estrellas de fondo en rojo
 color_all = df['BPmag'] - df['RPmag']
 plt.scatter(color_all, df['Gmag'], s=0.1, color='red', alpha=0.2, label='Estrellas de campo')
 
-# Graficamos SOLO el cúmulo en azul encima
+# Graficamo el cúmulo color azul encima
 color_cluster = df_cluster['BPmag'] - df_cluster['RPmag']
 plt.scatter(color_cluster, df_cluster['Gmag'], s=0.2, color='blue', alpha=0.6, label='Omega Centauri')
 

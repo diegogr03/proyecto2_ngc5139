@@ -25,7 +25,7 @@ Por otra parte el moviento propio nos permite identificar a partir de la gráfic
 
 ## Análisis de Resultados y Caracterización Física
 
-### Identificación Cinemática
+### Identificación Cinemática 
 El primer paso fundamental para este análisis de arqueología galáctica fue el aislamiento de las estrellas pertenecientes al cúmulo. Al graficar el movimiento propio (pmRA vs pmDE), se identificó una clara sobre-densidad (el "enjambre") que se diferencia del movimiento errático de las estrellas de campo de la Vía Láctea.
 
 Debido a que existían estrellas muy alejadas del origen, se realizó un centrado estratégico de la imagen en los ejes **x=(-10, 4)** e **y=(-12, 2)**. Para extraer únicamente los miembros de Omega Centauri, se aplicaron filtros espaciales en el plano del movimiento propio con los siguientes límites:
@@ -35,7 +35,7 @@ Debido a que existían estrellas muy alejadas del origen, se realizó un centrad
 Esta limpieza permitio eliminar gran parte del ruido de fondo, asegurando que el análisis fotométrico posterior sea representativo del cúmulo de estudio.
 
 ### Morfología del Diagrama Color-Magnitud (CMD)
-Tras el tratamiento y filtrado de los datos de Gaia DR3, el diagrama de Hertzsprung-Russell resultante muestra una definición excelente de las fases evolutivas. Al comparar los datos brutos (en rojo) con los filtrados (en azul), se observa la importancia del proceso:
+Tras el tratamiento y filtrado de los datos de Gaia DR3, el diagrama de Hertzsprung-Russell resultante muestra una buena definición de las fases evolutivas en estrellas. Al comparar los datos brutos (en rojo) con los filtrados (en azul), se observa la importancia del proceso:
 
 * **Secuencia Principal (MS):** Se observa una gran densidad de estrellas en la parte baja, extendiéndose hasta el punto de giro o *Turn-off* cerca de la magnitud G 18.
 * **Rama de las Gigantes Rojas (RGB):** Es claramente visible la pendiente ascendente hacia el rojo, lo cual es típico en poblaciones estelares viejas. 
@@ -44,9 +44,9 @@ Tras el tratamiento y filtrado de los datos de Gaia DR3, el diagrama de Hertzspr
 ## Conclusiones 
 El éxito del filtrado cinemático es evidente al observar la limpieza de la secuencia principal. La dispersión de puntos en la rama de las gigantes sugiere que estamos analizando un sistema con múltiples poblaciones estelares, reforzando la teoría de que Omega Centauri no es un cúmulo globular simple, sino un remanente arqueológico de un evento donde se fusionó con la Vía láctea hace miles de millones de años. 
 
-En un cúmulo globular normal, todas las estrellas nacen al mismo tiempo y de la misma nube, por lo que la RGB debería ser muy final. El hecho de que sea "ancha" en Omega Centauri confirma la presencia de múltiples poblaciones estelares con distintas metalicidades. Esto es la prueba de que el objeto tuvo suficiente masa para retener gas y formar nuevas generaciones de estrellas, algo que solo hacen las galaxias.
+En un cúmulo globular normal, todas las estrellas nacen al mismo tiempo y de la misma nube, por lo que la RGB debería ser muy fina. El hecho de que sea ancha en Omega Centauri confirma la presencia de múltiples poblaciones estelares con distintas metalicidades. Esto es la prueba de que el objeto tuvo suficiente masa para retener gas y formar nuevas generaciones de estrellas, algo que solo hacen las galaxias.
 
-Es impactante observar como, partiendo de una muestra de casi 165 000 estrellas se logran reducir los datos a una fracción que representa al cúmulo mediante filtros cinemáticos. Esto demuestra que la precisión de los movimientos propios en la misión **Gaia DR3** es lo suficientemente alta como para separar objetos que están a miles de años luz de distancia con un simple análisis de "racimos" (clustering) visual, consultas SQL y Pandas.
+Es impactante observar como, partiendo de una muestra de casi 165 000 estrellas se logran reducir los datos a una fracción que representa al cúmulo mediante filtros cinemáticos. Esto demuestra que la precisión de los movimientos propios en la misión **Gaia DR3** es lo suficientemente alta como para separar objetos que están a miles de años luz de distancia con un simple análisis de racimos (clustering) visual, consultas SQL y Pandas.
 
 
 
